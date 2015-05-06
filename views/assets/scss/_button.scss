@@ -1,0 +1,23 @@
+.button-primary{
+  position:absolute;
+  left: 50%;
+  bottom: 0;
+  border: 0;
+  box-shadow: 0 5px 0 rgba(0,0,0,0.2);
+}
+
+.button-active{
+  background-color: $red;
+}
+
+@media screen and (min-height: 600px){
+  .button-primary{
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    background: $white;
+    color: $red;
+    margin-left: -150px;
+    margin-bottom: -150px;
+  }
+}
